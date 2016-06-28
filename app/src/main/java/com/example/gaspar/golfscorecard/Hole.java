@@ -1,8 +1,6 @@
 package com.example.gaspar.golfscorecard;
 
-/**
- * Created by gaspar on 27-06-16.
- */
+
 public class Hole {
     private String mLabel;
     private int mStrokeCount;
