@@ -11,7 +11,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends ListActivity {
 
-    private static final String PREFS_FILE = "com.teamtreehouse.golfscorecard.preferences";
+    private static final String PREFS_FILE = "com.example.gaspar.golfscorecard.preferences";
     private static final String KEY_STROKECOUNT = "key_strokecount";
     private SharedPreferences mSharedPreferences;
     private SharedPreferences.Editor mEditor;
@@ -72,7 +72,7 @@ public class MainActivity extends ListActivity {
             }
 
             mListAdapter.notifyDataSetChanged();
-            
+
             return true;
         }
 
