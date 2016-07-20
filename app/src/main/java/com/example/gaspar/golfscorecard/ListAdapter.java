@@ -13,6 +13,7 @@ public class ListAdapter extends BaseAdapter {
 
     private final Context mContext;
     private final Hole[] mHoles;
+    private String hola;
 
     public ListAdapter(Context context, Hole[] holes) {
         mContext = context;
